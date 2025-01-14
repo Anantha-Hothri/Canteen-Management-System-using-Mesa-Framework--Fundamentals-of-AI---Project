@@ -73,4 +73,25 @@ This module focuses on agent-based automation using the Mesa framework.
 1. Navigate to the **AI-Start-Module** folder.
 2. Run `start_program.py`:
    ```bash
-   python start_program.py
+   python start_program.py ```
+3. Follow the prompts: 
+    - Enter 's' or 'start' to initiate the system.
+    - Place your ID card in front of the camera when prompted.
+    - Wait for the system to capture the image, extract your registration number, and validate your details.
+4. Enter the OTP send in you Email for verification.
+5. Upon successful OTP validation, access the dynamic menu system.
+
+**Note** :- The database has to be altered according to your requirements and small changes have to be made in the code to use with different ID cards. This project currently works with Amrita ID cards only and with our student database.
+
+---
+
+## Features
+- AI Integration: Agent-based menu updates and order processing.
+- Verification: ID card scanning and OTP-based email authentication.
+- Dynamic Menus: Menus update based on real-time data (e.g., time of day).
+- Secure Ordering: Centralized server for efficient token management.
+
+--- 
+
+## License
+This project is licensed under the MIT License.
